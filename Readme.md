@@ -28,28 +28,28 @@ The environment is considered solved when the average (over 100 episodes) of tho
 
    - Linux or Mac:
  
-      `conda create --name continuous_control python=3.6`
-      `source activate continous_control`
+      `conda create --name collaboration_competition python=3.6`
+      `source activate collaboration_competition`
       
    - Windows:
    
-     `conda create --name continuous_control python=3.6`  
+     `conda create --name collaboration_competition python=3.6`  
      
-     `activate continuous_control`
+     `activate collaboration_competition`
   
  2. Clone the repository, Then, install several dependencies.
  
-     `git clone https://github.com/ramanshrivastava/continuous-control-rl.git`
+     `git clone https://github.com/ramanshrivastava/multi-agent-rl-tennis.git`
      
      `pip install -r requirements.txt`
      
      
- 3. Create an IPython kernel for the `continuous_control` environment.
+ 3. Create an IPython kernel for the `collaboration_competition` environment.
  
-    `python -m ipykernel install --user --name continuous_control --display-name "continuous_control"`
+    `python -m ipykernel install --user --name collaboration_competition --display-name "collaboration_competition"`
    
 
- 4. Before running code in a notebook, change the kernel to match the `continuous_control` environment by using the drop-down Kernel menu.
+ 4. Before running code in a notebook, change the kernel to match the `collaboration_competition` environment by using the drop-down Kernel menu.
 
 ### Download the Unity Environment 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
